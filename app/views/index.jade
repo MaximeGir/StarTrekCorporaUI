@@ -1,0 +1,116 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset='UTF-8')
+        meta(name='apple-mobile-web-app-capable', content='yes')
+        meta(name='format-detection', content='telephone=no')
+        meta(name='viewport', content='user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, target-densitydpi=device-dpi')
+        link(href='stylesheets/style.css', media='all', rel='stylesheet', type='text/css')
+        link(href='stylesheets/jquery.json-viewer.css', media='all', rel='stylesheet', type='text/css')
+        script(src='javascripts/index.js', type='text/javascript')
+        script(src='javascripts/jquery.json-viewer.js', type='text/javascript')
+        title Star Trek Corpora
+    body#fastclick
+        audio#beep
+        audio#open
+        .container-fluid
+            .row-fluid
+                #nav.span2
+                    ul
+                        li.nav-a
+                            | STAR TREK CORPORA
+                            .hr-top
+                                .hr-block
+                        li#selected.nav-c.expandable
+                            | About STC
+                            .hr-bottom
+                                .hr-block
+                        li.nav-e.expandable Database
+                        li.nav-f.expandable Dialogs Generation
+                        li.nav-g.expandable
+                            | Documentation
+                            .hr-top
+                                .hr-block
+                #top.span10
+                    #lcars
+                        h1 Star Trek Corpora
+                        p Alpha build
+                #main.span10
+                #sectionC
+                    .headline
+                        span.h3 What is STC - Database B3-549
+                    p
+                        | Star Trek Corpora (or STC) is a project that started out of the desire to get information about my
+                        | favorite tv serie : Star Trek.
+                        | At first I wanted to have access to Voyager (VOY) dialogs to analyse them and come up with some sort of
+                        | primitive natural language generator,
+                        | then I searched online for Star Trek API but I could not find such a thing, I found PokéAPI and SWAPI
+                        | (Star Wars API) and got inspired. What if I could assemble enough data
+                        | to provide some model with rudimentary natural language (dialog act, really) generation capabilities ?
+                    p
+                        | So I started gathering data....
+                    p
+                        | and gathered more than I expected to have, at first it was all about Voyager, but then as I watched Next
+                        | Generation I started to be interested in a broader spectrum for this project...I started gathering all
+                        | things star trek and then, I finally have some decent amount of data available for you to play with!
+                    br
+                    p
+                        | I have not yet completed the natural language generator, as it is a very complex endeavour, but I have
+                        | assembled a lot of data for anyone interested to play with it.
+                        | I will try to keep updating the data as time passes, but I want to give the NLG (natural language
+                        | generator) a maximum of time and effort.
+                    p
+                        | The Star Trek Corpora API is not an exhaustive Star Trek API, as there are a lot of data missing, but
+                        | there is enough to match the dialogs context, which is what this project is all about.
+                    p
+                        | Star Trek Corpora API (STCAPI) is a REST API and is not yet MS Guidelines compliant, as this is an ALPHA.
+                        | See the documentation to get started.
+
+                    // <div class="row-fluid">
+                    // <div class="span2 btn btn-round btn-active">125A</div>
+                    // <div class="span2 btn btn-round">199B</div>
+                    // <div class="span2 btn btn-round btn-inactive">184C</div>
+                    // <div class="span2 btn btn-round">142D</div>
+                    // <div class="span2 btn">141E</div>
+                    // <div class="span2 btn btn-round-right">Heading</div>
+                    // </div>
+                    // <div class="row-fluid">
+                    // <div class="span2 btn btn-round">212A</div>
+                    // <div class="span2 btn btn-round">253B</div>
+                    // <div class="span2 btn btn-round">284C</div>
+                    // <div class="span2 btn btn-round">261D</div>
+                    // <div class="span2 btn">251E</div>
+                    // <div class="span2 btn btn-round-right">Calib</div>
+                    // </div>
+                    // <div class="row-fluid">
+                    // <div class="span2 btn btn-round">312A</div>
+                    // <div class="span2 btn btn-round">353B</div>
+                    // <div class="span2 btn btn-round">384C</div>
+                    // <div class="span2 btn btn-round btn-active">361D</div>
+                    // <div class="span2 btn">351E</div>
+                    // <div class="span2 btn btn-round-right">Ext 1</div>
+                    // </div>
+                    // <div class="row-fluid">
+                    // <div class="span4 btn btn-round">312A</div>
+                    // <div class="span2 btn btn-round">353B</div>
+                    // <div class="span2 btn btn-round">384C</div>
+                    // <div class="span2 btn">361D</div>
+                    // <div class="span2 btn btn-round-right btn-inactive">Ext 2</div>
+                    // </div>
+                    // <div class="row-fluid">
+                    // <div class="span2 btn btn-round">312A</div>
+                    // <div class="span2 btn btn-round">353B</div>
+                    // <div class="span2 btn btn-round">384C</div>
+                    // <div class="span2 btn btn-round btn-active">361D</div>
+                    // <div class="span2 btn">351E</div>
+                    // <div class="span2 btn btn-round-right">Activate</div>
+                    // </div>
+                #sectionE
+                    | Mode select
+                #sectionF
+                    | Not yet, please come back for more soon!
+                #sectionG
+                    | Documentation
+                    br
+                    br
+                    p
